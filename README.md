@@ -4,6 +4,7 @@ This is the final project for EECS 4471: Introduction to Virtual Reality. The te
 ## Table of Contents
 1. [Youtube Summary](#youtube-summary)
 2. [Description](#project-description)
+3. [Core Functionalities - How to use the system](#core-functionalities)
 
 ## YouTube Summary
 [![Screenshot Image of Overlay Screen Menu](https://github.com/dianalee1022/Bikey-McBikeface/blob/master/images/youtubeThumbnail.png)](https://www.youtube.com/watch?v=MPE8MiIXm6M)
@@ -24,3 +25,14 @@ In order to monitor the hand movements of a user, a pair of Oculus Touch Control
 In Unity, we created two different tracks where the players can explore by riding their virtual bikes. One of them is a rural, off-road track of a highway going through a mountain scape. The track mainly consists of uphill roads, allowing the players to fully immerse themselves in the effects of going uphill and downhill. The other track represents a cityscape scene, where the roads are mostly flat but with obstacles such as speed bumps.
 To model and simulate the physics of a real bike wheel, we developed the virtual bike fully utilizing the functionalities provided by the combination of the Stationary Pedal Exerciser and Touch Controllers. Additionally, the virtual bike is constructed based on Unity's built-in Wheel Collider functionality, which allows the project to take advantage of slip-based friction to model the bike tires going through different terrain types.
 ![Two Tracks in Unity and bike design](https://github.com/dianalee1022/Bikey-McBikeface/blob/master/images/scene_horizontal.png)
+
+## Core Functionalities
+The best way to start the Unity project is via Unity's build and run function after connecting the pedals to the computer. However, the project allows two different play modes: one with pedals and the other without bike pedals. In both cases, the pair of Oculus Touch Controllers would be the main interaction tool. Using the two controllers, a user would have full access to all functionalities supported by the project.
+
+### With Bike Pedals
+The following diagram summarizes the core functionalities supported with bike pedals:
+![Functionalities supported with bike pedals](https://github.com/dianalee1022/Bikey-McBikeface/blob/master/images/with_pedals.png)
+
+### Without Bike Pedals
+The following diagram summarizes the core functionalities supported without bike pedals:
+![Functionalities supported without bike pedals](https://github.com/dianalee1022/Bikey-McBikeface/blob/master/images/without_pedals.png)
