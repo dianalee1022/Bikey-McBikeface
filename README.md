@@ -6,4 +6,4 @@ This is the final project for EECS 4471: Introduction to Virtual Reality. The te
 2.
 
 ## YouTube Summary
-[![Screenshot Image of Overlay Screen Menu](https://github.com/dianalee1022/Unity-Projects/blob/master/img/menu.PNG)](https://www.youtube.com/watch?v=MPE8MiIXm6M)
+[![Screenshot Image of Overlay Screen Menu](https://github.com/dianalee1022/Bikey-McBikeface/blob/master/images/youtubeThumbnail.png)](https://www.youtube.com/watch?v=MPE8MiIXm6M)
