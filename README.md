@@ -5,6 +5,8 @@ This is the final project for EECS 4471: Introduction to Virtual Reality. The te
 1. [Youtube Summary](#youtube-summary)
 2. [Description](#project-description)
 3. [Core Functionalities - How to use the system](#core-functionalities)
+4. [Dependencies](#dependencies)
+5. [Credits](#credits)
 
 ## YouTube Summary
 [![Screenshot Image of Overlay Screen Menu](https://github.com/dianalee1022/Bikey-McBikeface/blob/master/Images/youtubeThumbnail.png)](https://www.youtube.com/watch?v=MPE8MiIXm6M)
@@ -36,3 +38,12 @@ The following diagram summarizes the core functionalities supported with bike pe
 ### Without Bike Pedals
 The following diagram summarizes the core functionalities supported without bike pedals:
 ![Functionalities supported without bike pedals](https://github.com/dianalee1022/Bikey-McBikeface/blob/master/Images/without_pedals.png)
+
+## Dependencies
+A brief description of each class/script created and any dependencies (on other sources/resources) used in the project.
+Majority of the scripts/class using Unity vehicles tools. The GameObject called carRoot is the root of the generated bike, and has the following components: an EasySuspension script, a WheelDrive script and a Rigidbody. The EasySuspension script is a utility script that updates suspension settings across all child WheelCollider components. Simply enter the mass, natural frequency and damping ratio for the wheels, and the EasySuspension script will take care of updating each WheelCollider component with these settings. The WheelDrive component is a minimalistic bike controller. This script allows for quick testing out of the box and provides a good start for your own customized vehicle controller.
+We edit WheelCollider to introduce the input from Oculus Rift using the OVR library and Ardity library to connect the bike pedal from Arduino Uno to Unity. Sound script was added for the bike’s bell and brakes and the correct haptic plays with the sound. Also, when pedaling and when you are moving but not pedaling different sounds play for the correct movement. Respawn point are added to both scene and scene switching are both implemented and controlled using the Oculus Rift. Lastly, haptic script was added to the speed bumps.
+
+## Credits
+* The Cityscape used were purchased from [Polyfix](https://assetstore.unity.com/packages/3d/environments/urban/detailed-city-construction-pack-v-2-49183) which is available on the Unity Asset Store. This pack is only available for EECS4471 final project purpose and should not be used outside of the course.
+* The rural, off-road scene was adopted from one of Unity's tutorial.
